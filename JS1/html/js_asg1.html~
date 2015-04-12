@@ -1,0 +1,110 @@
+<!DOCTYPE html >
+
+<html>
+	<head>
+		<title>JS Assignment 1</title>
+		<script src="../javascript/asg1.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/js_asg1.css" />
+		<meta name="keywords" content="" />
+	  	<meta name="description" content="" />
+
+	</head>
+
+	<body>	
+		<div class="container-wrapper">
+			<div class="header-wrapper">
+				<header>
+					<h1>JAVA Script Assignment #1</h1>
+				</header>
+			</div>
+
+			<div class="section-wrapper">
+				<section>
+					<nav>
+						<div class="var-display">					<!-- Display -->
+							<h3>Using Pop-up Alert</h3>
+							<input type="button" onclick="var_display()" value="Display Variable" />
+						</div>
+						<div class="var-display">					<!-- Display Name -->
+							<h3>Display Name</h3>
+							<input type="text" id="accept_name" placeholder="Enter Your Name" />
+							<label id="user_error"></label>
+							<input type="button" onclick="accept_display()" value="Show My Name" />
+						</div>
+
+						<div class="var-display">					<!-- Factorial -->
+							<h3>Factorial</h3>
+							<input type="text" id="accept_factorial" placeholder="Enter a number" />
+							<label id="fact_error"></label>
+							<input type="button" onclick="factorial()" value="Calculate factorial" />
+						</div>
+
+						<div class="var-display">
+							<h3>Celsius to Fahrenheit</h3>
+							<input type="text" id="accept_celsius" placeholder="Enter a temp in celcius" />
+							<label id="conv_error"></label>
+							<input type="text" id="fahrenheit" value="Fahrenheit" disabled="disabled"/>
+							<input type="button" onclick="conversion()" value="Convert" />
+						</div>
+
+						<div class="var-display">
+							<h3>Reverse a String</h3>
+							<input type="text" id="accept_string" placeholder="Enter the String" />
+							<label id="rev_error"></label>
+							<input type="text" id="rev" disabled="disabled"/>
+							<input type="button" onclick="reverse_string()" value="Reverse Me" />
+						</div>
+
+						<div class="var-display">
+							<h3>Today's Day</h3>
+							<input type="button" onclick="day()" value="Today's Day" />
+						</div>
+					</nav>
+					<aside>
+						<div class="var-display">
+							<h3>Length of a String</h3>
+							<input type="text" id="accept_length" placeholder="Enter the String" />
+							<label id="len_error"></label>
+							<input type="button" onclick="length_string()" value="My Length" />
+						</div>						
+
+						<div class="var-display">
+							<h3>Date Differences</h3>
+							<input type="text" id="set_date" placeholder="Day Mon Year" />
+							<label id="date_error"></label>
+							<input type="button" onclick="date_diff()" value="Date Differences" />
+						</div>
+
+						<div class="var-display">
+							<h3>Confirmation</h3>
+							<input type="text" id="first_name" placeholder="Enter First Name" />
+							<label id="first_error"></label>
+							<input type="text" id="middle_name" placeholder="Enter Middle Name"/>
+							<label id="middle_error"></label>
+							<input type="text" id="last_name" placeholder="Enter Last Name" />
+							<label id="last_error"></label>
+							<input type="button" onclick="confirmation()" value="Continue" />
+						</div>
+
+						<div class="var-display">
+							<h3>Concepts</h3>
+							<input type="text" id="number" placeholder="Enter the Number " />
+							<label id="radio_error"></label>
+							<label class="radio_label"><input type="radio" name ="num" id="prime" onClick="prime_num()"><span>Prime Number</span></label>
+							<label class="radio_label"><input type="radio" name ="num" id="arms" onClick="arm_num()"><span>Armstrong's Number</span></label>
+							<label class="radio_label"><input type="radio" name ="num" id="palind" onClick="pal_num()"><span>Palindrome</span></label>
+							<label class="radio_label"><input type="radio" name ="num" id="tables" onClick="return tables()"><span>Tables</span></label>
+						</div>
+
+					</aside>
+				</section>
+			</div>
+			<div class="footer-wrapper">
+				<footer>
+					<h2>&copy; AGS Technologies</h2>
+				</footer>
+			</div>
+		</div>
+	
+	</body>
+</html>

@@ -1,0 +1,151 @@
+@import url('../css/yellow-stone-common.css');
+
+.number11
+{
+	clear : both;
+	float : left;
+	
+	margin-top: 39px;
+	margin-left: -58px;
+    	position: absolute;
+    	
+}
+
+.number11 a
+{
+	text-decoration : none;	
+	padding : 10px;
+	color : #FFFFFF;
+	font-size : 30px;
+	font-family : arial;
+	border : 2px solid grey;
+	background-color : #FCBE03;	
+}
+
+
+.number7
+{
+	clear : both;
+	float : left;
+	
+	margin-top: 39px;
+	margin-left: -58px;
+    	position: absolute;
+    	
+}
+
+.number7 a
+{
+	text-decoration : none;	
+	padding: 6px 19px;
+	color : #FFFFFF;
+	font-size : 30px;
+	border : 2px solid grey;
+	background-color : #FCBE03;	
+}
+
+.content-wrapper
+{
+	clear : both;
+	float : left;
+	width : 66%;
+	padding-bottom : 40px;
+	padding-left : 40px;
+}
+
+/* Template License */
+
+.template-license
+{
+	padding-top : 20px;
+}
+
+
+
+.body
+{
+	position : relative;
+}
+
+
+.template-license , .template-list , .template-image 
+{
+	clear : both;
+	float : left;
+}
+
+.content-wrapper .template-list ul
+{
+	clear : both;
+	float : left;
+	padding : 0px;
+}
+
+.template-list
+{
+	padding-top : 20px;
+	padding-bottom : 20px;
+	color : #C1C1C1;
+}
+
+.template-para p
+{
+	margin-top : 10px;
+	width : 95%;
+}
+
+.template-para .read-more
+{
+	margin-top : 20px;
+	margin-bottom : 20px;
+}
+
+/* Page Numbers */
+.page-no
+{
+	clear : both;
+	float : left;
+	width : 95%;
+}
+
+
+.page-no .page-navigate a
+{
+	text-decoration : none;	
+	padding-top : 5px;
+	padding-bottom : 5px; 
+	padding-right : 10px;
+	padding-left : 10px;
+	color : #959595;
+	border : 1px solid #FED14A;
+}
+
+.page-no li .pg1
+{
+	background-color : #FED14A;
+	color : white;
+}
+
+.page-navigate a:hover
+{
+	background-color : #FED14A;
+	color : #FFFFFF;
+}
+
+.page-navigate ul
+{
+	
+	float : right;
+	padding-right : 12px;
+	padding-bottom : 10px;
+}
+
+.page-no li
+{
+	display : inline;
+	font-size : 11px;
+	font-family : arial;
+	padding-right : 1px;
+}
+	
+
